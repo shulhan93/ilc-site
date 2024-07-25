@@ -1,0 +1,34 @@
+.header {
+  padding-top: 4.5rem;
+
+  &__top {
+    margin-bottom: 4.8rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__phone {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 3.6rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+}
+
+.menu {
+  display: flex;
+  gap: 4.8rem;
+
+  &__item a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: #000;
+  }
+
+  &__item-active a {
+    color: $primary-color;
+    cursor: default;
+  }
+}
